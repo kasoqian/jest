@@ -1,4 +1,4 @@
-import { add } from "./main";
+import { add } from ".";
 describe(add, () => {
   test("add function", () => {
     expect(add(1, 1)).toBe(2);
